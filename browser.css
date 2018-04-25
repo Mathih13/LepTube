@@ -1,0 +1,51 @@
+/* width */
+::-webkit-scrollbar {
+    width: 3.5px;
+    background-color: transparent;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: red;
+}
+
+
+
+
+#logo-icon-container {
+    display: none
+}
+
+#country-code {
+    display: none
+}
+
+#buttons > ytd-topbar-menu-button-renderer.style-scope.ytd-masthead.style-default {
+    display: none;
+}
+
+.topButtons {
+    padding: 0.5em;
+}
+
+#topBar {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.08);
+    height: 4em;
+}
+
+#dragVisual {
+    border-left: 2px solid #999;
+    height: 4em;
+    float: right;
+    width: 80%;
+}
+
+#dragArea {
+    -webkit-app-region:drag;
+    height: 4em;
+    float: right;
+    width: 80%;
+}
+
+
