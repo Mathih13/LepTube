@@ -1,0 +1,1171 @@
+
+html {
+  /*font-size: 14px;*/
+  height:100%;
+}
+
+body {
+  color: #333;
+  font-weight: 300;
+  background: #fff;
+  overflow-x: hidden;
+  cursor:default;
+
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,p {
+  line-height: 1.8
+}
+
+img{
+  max-width:100%
+}
+
+
+.fa-stack-1x{
+  font-size:90%
+}
+
+#app{
+  height: 100%;
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-content{
+  flex: 1;
+  margin-top:auto;
+}
+
+.main-content-wrapper{
+  margin-top:7%
+}
+/* ==========================================================================
+     Button
+========================================================================== */
+
+button{
+  position:relative;
+  padding: 0.55em 1.5em;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  cursor:pointer;
+  outline:none !important;
+  transition: background 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+}
+
+
+/* ==========================================================================
+     Section
+     ========================================================================== */
+
+     .section{
+       margin-left:8%;
+       margin-right:8%;
+     }
+
+
+     .center{
+      text-align:center
+    }
+
+    .left{
+      text-align:left;
+    }
+
+    .right{
+      text-align:right;
+    }
+    .v-center{
+  
+    }
+
+    .absolute-wrapper{
+
+    }
+
+     /* ==========================================================================
+    Image-section
+     ========================================================================== */
+     .feature-widget{
+       position:relative;
+       max-width: 80%;
+       margin-right: auto;
+       margin-left: auto;
+     
+       
+     }
+     .feature{
+       padding:1em 0;
+       border-radius:3px;
+     }
+
+
+
+     .feature-widget img{
+       max-width:100%;
+       width:100%;
+
+
+
+     }
+
+     .feature-widget .slideshow{
+       text-align: center;
+     }
+
+     .feature-widget .screen{
+      top: 0;
+      position: absolute;
+      max-width: 76%;
+      left: 12.1%;
+      margin-top: 4.2%;
+      height:81.0%;
+   
+    }
+
+    .no-device-slideshow{
+      position: relative;
+      padding-top: 47%;
+    }
+  
+     .no-device-slideshow img{
+          left: 0; 
+          top: 0; 
+          right: 0; 
+          bottom: 0; 
+         /* margin-right: auto; 
+          margin-left: auto; */
+          position: absolute; 
+          max-width: 100%; 
+          max-height: 100%; 
+          text-align: center; 
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          border-radius: 3px;
+     
+      }
+
+
+
+        /* left: 0; */
+    /* top: 0; */
+    /* right: 0; */
+    /* bottom: 0; */
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    /* position: absolute; */
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    /* text-align: center; */
+
+
+    .image-section .no-device-slideshow{
+      text-align: center;
+      max-width: 75%;
+      margin-right: auto;
+      margin-left: auto;
+     
+    }
+
+
+
+  /* ==========================================================================
+     Footer
+     ========================================================================== */
+    footer ul{
+      list-style: none;
+      display: inline-flex;
+      padding:0;
+      margin:0;
+    } 
+
+    footer{
+      padding:2% 0;
+    }
+
+    footer .right{
+      right:2rem
+    }
+
+    footer ul li.w-border:before{
+
+      content: '\00a0 | \00a0';
+    } 
+
+
+
+     /* ==========================================================================
+      BACK TO TOP
+     ========================================================================== */
+     .back-to-top {
+      display: none;
+      position: fixed;
+      bottom: 1.2rem;
+      right: 1rem;
+      border-radius:3px;
+    }
+    .back-to-top i {
+      display: block;
+      width: 2.5rem;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      text-align: center;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+    }
+    
+  
+  .back-to-top:hover{
+      text-decoration: none;
+  }
+  /* ==========================================================================
+     Landing Section
+     ========================================================================== */
+
+     .landing-section{
+
+      margin-bottom:2%;
+
+    }
+     .landing-section h1{
+    
+        padding:0.5% 0;
+       margin-right:15%;
+       margin-left:15%;
+       margin-bottom: 0;
+       line-height:1.4;
+
+     }
+
+     .landing-section h2{
+      font-size:2rem;
+      padding:0.5% 0;
+      margin-right:15%;
+      margin-left:15%;
+      margin-bottom: 0;
+      line-height:1.4;
+
+    }
+
+
+    .landing-section h5{
+      margin-top: 2%;
+      font-weight: 100;
+      font-size: 0.9rem;
+
+    }
+
+    .landing-section .button-row{
+      padding-top: 2%;
+      
+
+    }
+    .landing-section button{
+      margin-right:0.5%;
+      margin-left:0.5%;
+
+    }
+
+    .landing-section .download-container{
+      margin-right:15%;
+      margin-left:15%;
+      padding: 0.5%;
+    }
+
+
+    .landing-section .download-button{
+      padding:0;
+      display: inline-flex;
+    }
+    .landing-section .download-button, .download-button a{
+      cursor:default
+    }
+
+    .landing-section .download-button a{
+      display: flex;
+      padding: 0.55em 1.5em;
+    }
+
+    .landing-section .download-button:disabled{
+      cursor:not-allowed;
+      opacity: 0.7;
+    }
+
+    .landing-section .builder-component-wrapper .download-button:disabled{
+      cursor:not-allowed;
+      opacity: 1;
+    }
+
+
+   /* ==========================================================================
+     Image Section
+     ========================================================================== */
+     .image-section{
+       padding:1% 0;
+     }
+
+     /* ==========================================================================
+     Text Section
+     ========================================================================== */
+
+     .text-section{
+      margin-top: 3%;
+      margin-bottom: 3%;
+     
+     }
+
+     .text-section h4{
+      padding:2% 2%;
+     }
+
+  /* ==========================================================================
+    terms Section
+     ========================================================================== */
+
+     .terms-section{
+      margin:3% 10%;
+      margin-top:7%;  
+      padding:2% 1%;
+      margin-bottom:10%;
+     }
+
+     .terms-section h2{
+      
+      padding:0% 3%;
+      font-size:2rem;
+      margin-bottom:5%;
+      text-align:center
+    }
+
+    .terms-section .contact{
+      padding-top:5%;
+    }
+    .terms-section .contact p{
+      margin:0;
+    }
+
+    .terms-section .term-section{
+      margin-top:5%;
+    }
+
+    .terms-section .contact h5{
+      text-align:left
+    }
+
+    .terms-section h5{
+    
+      text-align:center
+    }
+
+   /* ==========================================================================
+     Feature Section
+     ========================================================================== */
+
+     .feature-section{
+      margin-top:7%;  
+      padding:2% 1%;
+     }
+
+
+     .feature-section h2{
+      
+      padding:0% 3%;
+      font-size:2rem;
+      margin-bottom:5%;
+    }
+    .feature-section h5{
+      
+      margin-top:5%;
+    
+    }
+
+    .feature-section .feature-image-wrapper img{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      max-width: 100%;
+      max-height: 100%;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  .feature-section .feature-image-wrapper{
+      width: 100%;
+      position: relative;
+      padding-top: 62%;
+}
+
+  
+
+  /*
+    .feature-section .feature img{
+      /*max-height:30rem;*/
+      max-width:100%;
+      border-radius:3px;
+      border-radius: 3px;
+    }
+*/
+
+ 
+
+    
+
+    .feature-section .row{
+      padding:0% 3%;
+
+    }
+
+    .feature-section h4{
+
+      margin-top:5%;
+      font-weight:900;
+    }
+    .feature-section p{
+      margin-top:2%;
+    }
+
+    .feature-section a{
+
+        border-bottom: 1px dotted;
+        padding-bottom: 0.5%;
+        cursor:pointer;
+        transition: border-bottom 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+    }
+
+
+    .feature-section a:hover{
+
+        border-bottom: 1px solid;
+  
+    }
+
+   /* ==========================================================================
+    Testimonial Section
+     ========================================================================== */
+
+
+     .cit-wrapper{
+
+      display: flex;
+      align-items: center;
+      font-size: 1.1rem;
+    }
+
+    .cit-wrapper .author {
+      margin-bottom:0
+    }
+    .cit-wrapper div{
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .testimonial-section{
+      
+      margin-top:7%;
+      margin-bottom:7%;
+    
+    }
+
+    .testimonial-section .owl-carousel{
+      padding-top: 1em;
+     
+    }
+
+
+    .testimonial-section h2{
+      
+      font-size:2rem;
+      margin-bottom:5%;
+    }
+
+    .testimonial-section  .owl-stage-outer{
+      border-radius:3px;
+  
+    }
+
+    .testimonial-section .owl-dots{
+      margin-top:5% !important;
+    }
+    .testimonial-section .owl-carousel .owl-item img {
+
+      border-radius: 100px;
+     }
+
+     .testimonial-section img{
+      display: initial !important;
+      width: 100% !important;
+     }
+
+     .owl-carousel.owl-drag .owl-item {
+
+
+      border-radius: 3px;
+
+  }
+
+  .carousel-wrapper{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+
+
+
+
+     /* ==========================================================================
+    Subscription Section
+     ========================================================================== */
+
+
+    .subscription-section{ 
+        margin-top:7%;  
+        padding:2% 0%;
+
+    }
+
+    .subscription-section .button{
+      padding: .6rem 1rem;
+    }
+
+    .subscription-section h2{
+      
+      font-size:2rem;
+      margin-bottom:5%;
+    }
+
+    .subscription-section input{
+      border:none;
+       border-radius: 3px;
+       
+      
+       cursor:pointer !important;
+       border-radius: 3px;
+        outline:none;
+
+
+    }
+
+    .subscription-section form{
+      padding-top: 1em;
+    }
+
+    .subscription-section .text-input{
+      border-color:1px solid;
+      width: 20rem;
+      padding: .7em 1em;
+    }
+
+    
+
+
+
+     /* ==========================================================================
+    Social Section
+     ========================================================================== */
+     .social-section{
+      margin-top:7%;  
+      padding:2% 0%;
+
+    }
+
+    .social-section ul{
+      margin-bottom:0;
+      padding:0;
+    }
+
+    .social-section ul .fa-stack{
+        cursor:pointer;
+    }
+
+
+
+  /* ==========================================================================
+     Header
+     ========================================================================== */
+    header{
+      padding-top: 1.5%;
+      padding-left: 4%;
+    }
+
+    header .logo{
+      max-width: 40px; 
+      cursor:pointer;
+     /* margin-right: 1rem;*/
+    }
+
+
+  
+  .nav-list{
+      display: inline-block  ;
+   
+    }
+
+  
+  .nav-list ul{
+    display: inline-flex;
+    list-style: none;
+    margin:0;
+    padding:0;
+    font-weight:400;
+
+  }
+  
+  .nav-list ul li{
+    cursor:pointer;
+    padding: 0 1em;
+  }
+
+    
+  .nav-list ul li:hover{
+
+    text-decoration: underline;
+  }
+
+
+  .nav-list ul li a{
+   vertical-align:sub;
+  }
+
+
+
+/* ==========================================================================
+  Extras
+    ========================================================================== */
+
+    span.love{
+     color: #c95687
+    }
+
+    .quotei {
+      font-size: 70%;
+    }
+
+  /* ==========================================================================
+   Pricing Section
+   ========================================================================== */
+   .pricing-section{
+    margin-left: 5%;
+    margin-right:5%;
+    margin-bottom:10%;
+  }
+  
+  .pricing-section .section-title{
+    margin-top:7%;
+    margin-bottom:7%;
+    padding:2%;
+    text-align: center;
+  
+  }
+
+  .pricing-section .pricing-col{
+    text-align:center;
+ 
+
+  }
+
+  .pricing-col-4{
+    padding-right:2em;
+    padding-left:2em;
+  } 
+  .pricing-col-3{
+    padding-right:3em;
+    padding-left:3em;
+  }
+
+  .pricing-col-2, .pricing-col-1 {
+
+  }
+
+  .pricing-section .pricing-col button{
+    margin-top:5%;
+  }
+
+  .pricing-section h3{
+    font-weight:900;
+  }
+
+  .pricing-section h5{
+    margin-bottom:0;
+  }
+
+  .pricing-section h4{
+    margin-bottom:5%;
+  }
+
+  .pricing-section .image-wrapper{
+    width:100%;
+    height:30%;
+    border-radius:3px;
+    margin-bottom:5%;
+  }
+
+
+.pricing-section .pricing-table .col-xl-12, .pricing-section .pricing-table .col-md-12, .pricing-section .pricing-table .col-sm-12, .pricing-section .pricing-table .col-xs-12{
+      margin-bottom: 10%;
+      max-width: 70%;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+}
+
+.pricing-section .pricing-table .col-xl-6, .pricing-section .pricing-table .col-md-6, .pricing-section .pricing-table .col-sm-6, .pricing-section .pricing-table .col-xs-6{
+  max-width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.pricing-section .pricing-table .col-xl-4, .pricing-section .pricing-table .col-md-4, .pricing-section .pricing-table .col-sm-4, .pricing-section .pricing-table .col-xs-4 {
+  max-width: 33%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.pricing-section img{
+  margin-bottom:5%;
+  max-width:90%;
+  border-radius:3px;
+ /* max-height:30rem;*/
+}
+
+  /* ==========================================================================
+  Featurelist Section
+      ========================================================================== */
+
+  .featurelist-section{
+    margin-left: 20%;
+    margin-right:20%;
+  }
+
+  .featurelist-section .section-title{
+    margin-top:7%;
+    margin-bottom:7%;
+    padding:2%;
+    text-align: center;
+
+
+  }
+
+  .featurelist-section .video-asset{
+    margin-top:1%;
+  }
+
+  .featurelist-section .image-list{
+    padding: 0 2%;
+  }
+
+  .featurelist-section .image-list .col-ml-4,  .featurelist-section .image-list .col-sm-4 .featurelist-section .image-list .col-xl-4 .featurelist-section .image-list .col-xs-4{
+     padding:0;
+  }
+
+  .featurelist-section .image-list .col-ml-6,  .featurelist-section .image-list .col-sm-6 .featurelist-section .image-list .col-xl-6 .featurelist-section .image-list .col-xs-6{
+    padding:0;
+ }
+
+ .featurelist-section .image-list .col-ml-12,  .featurelist-section .image-list .col-sm-12 .featurelist-section .image-list .col-xl-12 .featurelist-section .image-list .col-xs-12{
+  padding:0;
+}
+
+  /* ==========================================================================
+    Featurelist
+  ========================================================================== */
+    .featurelist {
+      position: relative;
+      padding: 0;
+      list-style: none;
+    
+    }
+
+    .featurelist>li {
+      position: relative;
+      margin-bottom: 10%;
+    }
+
+
+    .featurelist-header{
+      border-bottom:1px solid;
+      font-weight:900;
+    }
+  
+    .featurelist-footer{
+        border-top: 1px solid;
+  
+    }
+    .featurelist-item {
+      text-align: initial;
+      margin-top: 3rem;
+    
+    }
+
+    .featurelist-item .markdown{
+      margin-bottom:1em;
+    }
+    
+    .featurelist-item img{
+      padding: 0.3rem;
+      /*max-height:40rem;*/
+    }
+
+     .featurelist .row > [class*='col-'] {
+      text-align:center;
+    }
+    
+
+      
+
+  .featurelist>li>.featurelist-item {
+  
+        border-radius: 3px;
+        padding: 0;
+        position: relative
+    }
+
+    .featurelist>li>.featurelist-item>.featurelist-header {
+      margin: 0;
+      padding: 1.2rem;
+      font-size:1.2rem;
+      line-height: 1.1
+  }
+
+  .featurelist>li>.featurelist-item>.featurelist-body{
+    padding: 1.2rem;
+    padding-bottom:3rem;
+  }
+/* ==========================================================================
+Changelog Section
+    ========================================================================== */
+
+.changelog-section{
+  margin-left: 17%;
+  margin-right:17%;
+}
+
+.changelog-section .section-title{
+  margin-top:7%;
+  margin-bottom:7%;
+  padding:2%;
+  text-align: center;
+
+
+}
+
+.changelog-section .video-asset{
+  margin-top:1%;
+}
+
+.changelog-section  .image-list img{
+  /*max-height:40rem;*/
+}
+
+.changelog-section  .image-list  .row > [class*='col-'] {
+  text-align:center;
+}
+
+
+
+.changelog-section .image-list{
+  padding: 0 2%;
+}
+
+.changelog-section .image-list .col-ml-4,  .changelog-section .image-list .col-sm-4 .changelog-section .image-list .col-xl-4 .changelog-section .image-list .col-xs-4{
+   padding:0;
+}
+
+.changelog-section .image-list .col-ml-6,  .changelog-section .image-list .col-sm-6 .changelog-section .image-list .col-xl-6 .changelog-section .image-list .col-xs-6{
+  padding:0;
+}
+
+.changelog-section .image-list .col-ml-12,  .changelog-section .image-list .col-sm-12 .changelog-section .image-list .col-xl-12 .changelog-section .image-list .col-xs-12{
+padding:0;
+}
+
+
+
+
+/* ==========================================================================
+    Timeline
+  ========================================================================== */
+
+    .timeline {
+      position: relative;
+      padding: 0;
+      list-style: none;
+     
+  }
+  
+  .timeline:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: 0;
+      border-radius: 2px;
+      width: 1px;
+  }
+  
+  .timeline>li {
+      position: relative;
+      margin-bottom: 10%;
+      margin-left: 2rem;
+  }
+  
+  .timeline>li:before,
+  .timeline>li:after {
+      content: " ";
+      display: table
+  }
+  
+  .timeline>li:after {
+      clear: both
+  }
+  
+  .timeline>li>.timeline-item {
+
+      border-radius: 3px;
+      padding: 0;
+      position: relative
+  }
+  
+  .timeline>li>.timeline-item>.time {
+      float: right;
+      padding: 10px;
+      font-size: 12px
+  }
+  
+ 
+  .timeline-item img{
+    padding: 1% 1%;
+    }
+
+
+
+  .timeline>li>.timeline-item>.timeline-header {
+      margin: 0;
+      padding: 1.2rem;
+      font-size:1.2rem;
+      line-height: 1.1
+  }
+  
+  .timeline-header{
+    border-bottom:1px solid;
+    font-weight:900;
+  }
+
+  .timeline-footer{
+      border-top: 1px solid;
+
+  }
+  .timeline-item {
+    text-align: initial;
+    margin-top: 3rem;
+  
+  }
+  
+
+
+  .timeline>li>.timeline-item>.timeline-header>a {
+      font-weight: 600
+  }
+  
+  .timeline>li>.timeline-item>.timeline-body,
+  .timeline>li>.timeline-item>.timeline-footer {
+    padding: 1.2rem;
+  }
+  
+  .timeline>li>.fa,
+  .timeline>li>.glyphicon,
+  .timeline>li>.ion {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    position: absolute;
+
+    border-radius: 50%;
+    text-align: center;
+    margin-left: -3rem;
+    top: 0;
+  }
+  
+  .timeline>.time-label>span {
+      font-weight: 600;
+      padding: 5px;
+      display: inline-block;
+      background-color: #fff;
+      border-radius: 4px
+  }
+  
+  .timeline-inverse>li>.timeline-item {
+
+      -webkit-box-shadow: none;
+      box-shadow: none
+  }
+  
+
+  .timeline-button {
+    
+      border-radius: 3px !important;
+      padding: 0.5em;
+      padding-right: 1em!important;
+      padding-left:1em !important;
+      font-weight: 400 !important;
+      font-family: Abel, sans-serif;
+      position:absolute;
+      left: -11em;
+}
+
+
+        
+.timeline-date {
+  padding: 0.5em;
+  padding-right: 1em!important;
+  padding-left:1em !important;
+ 
+  position: absolute;
+  left: -11em;
+  background: transparent !important;
+  font-weight: 400 !important;
+  font-family: Abel, sans-serif;
+  margin-top:3em;
+}
+
+
+
+
+/* ==========================================================================
+    Lightbox
+  ========================================================================== */
+
+
+a.lightbox img {
+  
+  }
+  
+  /* Styles the lightbox, removes it from sight and adds the fade-in transition */
+  
+  .lightbox-target {
+    position: fixed;
+    left: 0;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+
+
+  }
+
+  .lightbox-target:target {
+    opacity: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display:flex;    
+    z-index:9;
+    }
+  
+  /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+  
+  .lightbox-target img {
+  margin: auto;
+  box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+  box-sizing: border-box;
+
+  }
+  
+  /* Styles the close link, adds the slide down transition */
+  
+  a.lightbox-close {
+  display: block;
+  width:50px;
+  height:50px;
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: -80px;
+  right: 0;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  }
+
+  a.lightbox-next{
+    position: absolute;
+    top: 50%;
+    font-size: 4rem;
+    color: white;
+    right: 1rem;
+
+  }
+
+    a.lightbox-prev{
+      position: absolute;
+      top: 50%;
+      font-size: 4rem;
+      color: white;
+      left: 1rem;
+      
+  }
+  
+
+
+  
+  /* Provides part of the "X" to eliminate an image from the close link */
+  
+  a.lightbox-close:before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: white;
+  position: absolute;
+  left: 26px;
+  top:10px;
+  -webkit-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  transform:rotate(45deg);
+  }
+  
+  /* Provides part of the "X" to eliminate an image from the close link */
+  
+  a.lightbox-close:after {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: white;
+  position: absolute;
+  left: 26px;
+  top:10px;
+  -webkit-transform:rotate(-45deg);
+  -moz-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+  }
+  
+  /* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+  
+
+  
+  .lightbox-target:target img {
+    max-height: 80%;
+    max-width: 80%;
+  }
+  
+  .lightbox-target:target a.lightbox-close {
+  top: 0px;
+  }
+  
+

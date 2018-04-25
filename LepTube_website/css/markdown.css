@@ -1,0 +1,43 @@
+.markdown ul{
+
+     list-style: disc;  
+      display:table;
+  }
+  
+
+
+  p{
+    margin-bottom: 1.25rem;
+  }
+
+
+
+
+  .markdown code{
+      border:none;
+  }
+
+  .markdown pre{
+      background: white
+  }
+
+  .markdown p code{
+      background:#373737;
+      color:white;
+  }
+
+
+  .markdown img{
+      padding-top:20px;
+      width:100%
+  }
+
+  .markdown{
+      display:inline-block;
+      width:100%;
+       overflow-x:scroll;
+
+  }
+
+  
+

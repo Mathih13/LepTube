@@ -1,27 +1,60 @@
 {
-  "name": "LepTube",
-  "version": "0.9.0",
-  "description": "A minimal desktop wrapper for YouTube",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "repository": "https://github.com/Mathih13/LepTube",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "Mathias Hartveit",
-  "license": "MIT",
-  "devDependencies": {
-    "electron": "^1.8.4"
-  },
-  "dependencies": {
-    "electron-is-dev": "^0.3.0",
-    "electron-store": "^1.3.0",
-    "electron-titlebar": "0.0.3"
-  }
+    "name": "LepTube",
+    "version": "0.9.0",
+    "description": "LepTube is a minimal wrapper that allows you to use YouTube as a desktop app.",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "electron-toolkit": "electron ./node_modules/electron-toolkit"
+    },
+    "repository": "https://github.com/Mathih13/LepTube",
+    "keywords": [
+        "Electron",
+        "quick",
+        "start",
+        "tutorial",
+        "demo"
+    ],
+    "author": "Mathias Hartveit",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^1.8.4",
+        "electron-builder": "^20.10.0",
+        "electron-toolkit": "^1.0.24"
+    },
+    "dependencies": {
+        "electron-is-dev": "^0.3.0",
+        "electron-store": "^1.3.0",
+        "electron-titlebar": "0.0.3"
+    },
+    "build": {
+        "appId": "com.mathih13.LepTube",
+        "copyright": "Copyright © 2018 Mathias Hartveit",
+        "productName": "LepTube",
+        "electronVersion": "1.8.4",
+        "asar": true,
+        "directories": {
+            "app": "C:\\Users\\E215830\\Documents\\Dev\\Sandbox\\YT_App\\LepTube",
+            "output": "dist"
+        },
+        "win": {
+            "target": [
+                {
+                    "target": "nsis",
+                    "arch": [
+                        "x64"
+                    ]
+                }
+            ]
+        },
+        "publish": {
+            "provider": "github",
+            "repo": "https://github.com/Mathih13/LepTube",
+            "owner": "",
+            "token": "",
+            "vPrefixedTagName": true,
+            "releaseType": "draft",
+            "private": false
+        }
+    }
 }
